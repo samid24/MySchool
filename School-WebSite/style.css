@@ -101,6 +101,11 @@
   font-size: 24px;
   cursor: pointer;
   rotate: 90deg;
+  cursor: pointer;
+}
+.hamburger span {
+  background: black;
+  border-radius: 2px;
 }
 
 /* hero section */
@@ -263,6 +268,9 @@ footer {
   list-style: none;
   gap: 10px;
 }
+.footerContainer ul li a, .followMe ul li a{
+  text-decoration: none;
+}
 .footerBottom{
   margin-top: 30px;
   font-size: 14px;
@@ -325,7 +333,6 @@ footer {
 
   .hamburger {
     display: block;
-    font-weight: bolder;
   }
 
   .active {
