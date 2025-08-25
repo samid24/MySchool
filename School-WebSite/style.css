@@ -103,6 +103,13 @@
   rotate: 90deg;
   cursor: pointer;
 }
+.hamburger span {
+  width: 10px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: black;
+  margin: 0px;
+}
 
 /* hero section */
 .container {
@@ -357,4 +364,3 @@ footer {
   }
 
 }
-
