@@ -104,11 +104,12 @@
   cursor: pointer;
 }
 .hamburger span {
-  width: 10px;
-  height: 3px;
+  display: flex;
+  width: 24px;
+  height: 4px;
   border-radius: 3px;
   background-color: black;
-  margin: 0px;
+  margin: 4px;
 }
 
 /* hero section */
@@ -364,3 +365,4 @@ footer {
   }
 
 }
+
